@@ -1,266 +1,113 @@
 <!DOCTYPE html>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en">
   <head>
-    <title>Clint Baker | Full-stack Javascript</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+    <meta charset="UTF-8" />
+    <title>Clint Baker</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <!-- INTER FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- EMAIL -->
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
   </head>
-  <body class="is-preload">
-    <!-- Sidebar -->
-    <section id="sidebar">
-      <div class="inner">
-        <nav>
-          <ul>
-            <li><a href="#intro">Welcome</a></li>
-            <li><a href="#one">Projects</a></li>
-            <li><a href="#two">About</a></li>
-            <li><a href="#three">Get in touch</a></li>
-          </ul>
-        </nav>
+  <body>
+    <section class="section mt-30">
+      <div class="container">
+        <h1>Hey, my name is Clint Baker.</h1>
+        <p class="mt-15">I'm a software developer.</p>
+        <a class="mt-15 button" href="#work">My work.</a>
+        <a class="mt-15 button" href="#contact">Let's talk.</a>
       </div>
     </section>
 
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Intro -->
-      <section id="intro" class="wrapper style1 fullscreen fade-up">
-        <div class="inner">
-          <h1>Hey, my name is Clint Baker.</h1>
+    <section class="section mt-30">
+      <div class="container" id="work">
+        <h2>My work:</h2>
+
+        <div class="mt-15 work">
+          <h3>Golf Course Ranker</h3>
+          <img
+            class="work--img"
+            src="assets/gcr3.png"
+            alt="Golf Course Ranker"
+          />
           <p>
-            I'm a full-stack Javascript developer based in
-            <a href="#">Salt Lake City, UT.</a><br />
+            Built using ReactJS, ExpressJS, and MongoDB, Golf Course Ranker is a
+            full-stack Javascript application that allows users to rank and
+            manage their favorite golf courses.
           </p>
-          <ul class="actions">
-            <li><a href="#three" class="button scrolly">Get in touch</a></li>
-          </ul>
         </div>
-      </section>
-
-      <!-- One -->
-      <section id="one" class="wrapper style2 spotlights">
-        <section>
-          <a href="#" class="image"
-            ><img src="images/pic01.jpg" alt="" data-position="center center"
-          /></a>
-          <div class="content">
-            <div class="inner">
-              <h2>Capstone 4</h2>
-              <p>This is where I'll display the Capstone 4 project.</p>
-              <!-- <ul class="actions">
-                <li><a href="#" class="button">Learn more</a></li>
-              </ul> -->
-            </div>
-          </div>
-        </section>
-        <section>
-          <a href="#" class="image"
-            ><img src="images/pic02.jpg" alt="" data-position="top center"
-          /></a>
-          <div class="content">
-            <div class="inner">
-              <h2>Capstone 5</h2>
-              <p>This is where I'll display the Capstone 5 project.</p>
-              <!-- <ul class="actions">
-                <li><a href="generic.html" class="button">Learn more</a></li>
-              </ul> -->
-            </div>
-          </div>
-        </section>
-        <section>
-          <a href="#" class="image"
-            ><img src="images/pic03.jpg" alt="" data-position="25% 25%"
-          /></a>
-          <div class="content">
-            <div class="inner">
-              <h2>Capstone 6</h2>
-              <p>This is where I'll display the Capstone 6 project.</p>
-              <ul class="actions">
-                <li>
-                  <a href="#three" class="button scrolly">Get in touch</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <!-- Two -->
-      <section id="two" class="wrapper style3 fade-up">
-        <div class="inner">
-          <h2>About me</h2>
-          <p>
-            Salt Lake City is where I call home. I enjoy golf, cooking, travel,
-            spending time with friends and family, and learning new things.
-          </p>
-          <div class="features">
-            <section>
-              <span class="icon solid major fa-golf-ball"></span>
-              <h3>Golf</h3>
-              <p>
-                I've been known to be encouraging and laid back, am more than
-                happy to turn a blind eye for a mulligan or two, and I always
-                have extra golf balls. Let's play golf!
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-code"></span>
-              <h3>Full-stack Javascript</h3>
-              <p>
-                ReactJS, NodeJS, ExpressJS, etc. I love solving problems using
-                Javascript. Let's build a full-stack application!
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-desktop"></span>
-              <h3>Front End</h3>
-              <p>
-                Let's build a responsive, user-focused front end application!
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-server"></span>
-              <h3>Back End</h3>
-              <p>
-                Let's build an API, in-house server, or facilitate the storage,
-                management, and utilization of data for your business!
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-link"></span>
-              <h3>Process Oriented</h3>
-              <p>
-                Let's optimize your workflows and build scalable, user-friendly
-                solutions that will automate your business!
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-calculator"></span>
-              <h3>Analytical Approach to Business</h3>
-              <p>
-                Let's scale your operations and streamline your management
-                workflows!
-              </p>
-            </section>
-          </div>
-          <ul class="actions">
-            <li><a href="#three" class="button scrolly">Get in touch</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Three -->
-      <section id="three" class="wrapper style1 fade-up">
-        <div class="inner">
-          <h2>Get in touch</h2>
-          <p>
-            I'm a web developer and operations analyst for
-            <a href="https://www.jlbcompanies.com" target="_blank">
-              JLB Companies </a
-            >. Let's talk business!
-          </p>
-          <div class="split style1">
-            <section>
-              <form id="contact-form">
-                <div class="fields">
-                  <div class="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="user_name" id="name" />
-                  </div>
-                  <div class="field half">
-                    <label for="email">Email</label>
-                    <input type="text" name="user_email" id="email" />
-                  </div>
-                  <div class="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5"></textarea>
-                  </div>
-                </div>
-                <ul class="actions">
-                  <li>
-                    <button type="submit" class="button">Send Message</button>
-                  </li>
-                </ul>
-              </form>
-            </section>
-            <section>
-              <ul class="contact">
-                <li>
-                  <h3>Location</h3>
-                  <span>Salt Lake City, UT</span>
-                </li>
-                <li>
-                  <h3>Social</h3>
-                  <ul class="icons">
-                    <li>
-                      <a
-                        href="https://github.com/ClintBaker"
-                        class="icon brands fa-github"
-                        target="_blank"
-                        ><span class="label">GitHub</span></a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/cjaybaker/"
-                        class="icon brands fa-instagram"
-                        target="_blank"
-                        ><span class="label">Instagram</span></a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/clint-baker-2491771ba/"
-                        class="icon brands fa-linkedin-in"
-                        target="_blank"
-                        ><span class="label">LinkedIn</span></a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- Footer -->
-    <footer id="footer" class="wrapper style1-alt">
-      <div class="inner">
-        <ul class="menu">
-          <li>&copy; Clint Baker. All rights reserved.</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
       </div>
-    </footer>
+    </section>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <section class="section mt-30 mb-30" id="contact">
+      <div class="container">
+        <h2 class="m-5">Get in touch</h2>
+        <div class="m-5">
+          <a
+            class="awesome"
+            href="https://linkedin.com/in/clintjbaker"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="awesome"
+            href="https://github.com/ClintBaker"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+
+        <form class="form mt-30" id="contact-form">
+          <div id="alert"></div>
+          <div class="inputs">
+            <input
+              name="Name"
+              id="user_name"
+              name="user_name"
+              placeholder="Name"
+              type="text"
+            />
+            <input
+              name="Email"
+              id="user_email"
+              name="user_email"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+          ></textarea>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/52cb88ad77.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- EMAIL Scripts -->
-    <script src="assets/js/email/init.js"></script>
-    <script src="assets/js/email/email.js"></script>
+    <script src="email/init.js"></script>
+    <script src="email/email.js"></script>
   </body>
 </html>
