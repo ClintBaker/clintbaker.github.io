@@ -9049,7 +9049,7 @@ function Kd() {
               p.jsx('p', {
                 className: 'text-base text-blue-600',
                 children:
-                  'Dec 2023 - Present && Nov 2018 - Dec 2022 (4.5 years)',
+                  'Dec 2023 - Present & Nov 2018 - Dec 2022 (4.5 years)',
               }),
               p.jsxs('ul', {
                 className: 'text-sm list-disc mx-4',
@@ -9538,8 +9538,7 @@ function fp() {
     children: p.jsxs('div', {
       className: 'container mx-auto flex justify-between items-center',
       children: [
-        p.jsx('a', {
-          href: '#',
+        p.jsx('div', {
           className: 'text-xl font-bold',
           children: p.jsxs('div', {
             className: 'flex items-center',
